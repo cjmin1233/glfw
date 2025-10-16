@@ -38,7 +38,7 @@ project "GLFW"
 
         defines
         {
-            "_GLFW_WIN32"
+            "_GLFW_WIN32",
             "_CRT_SECURE_NO_WARNINGS"
         }
 
@@ -53,4 +53,5 @@ project "GLFW"
     filter "configurations:Dist"
         runtime "Release"
         optimize "speed"
+
         symbols "off"
